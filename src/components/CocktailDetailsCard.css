@@ -1,0 +1,138 @@
+.cocktail-details-card-container {
+    width: 630px;
+    height: 676px;
+}
+
+.cocktail-details-card-header {
+    color: #FFFFFF;
+
+    font-family: SF Pro Rounded;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cocktail-details-card {
+    margin-top: 24px;
+    width: 628px;
+    height: 608px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF99;
+    padding: 24px 20px;
+    display: grid;
+    align-content: space-between;
+}
+
+.cocktail-details-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.cocktail-details-top-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 42px;
+}
+
+.ingredients-header {
+    color: #FFFFFFB2;
+    margin-bottom: 24px;
+}
+
+.ingredients-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+
+    font-family: Varela Round;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.cocktail-details-middle-section {
+    height: 158px;
+}
+
+.cocktail-instructions-header {
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Varela Round;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cocktail-instructions {
+    margin-top: 8px;
+    font-family: Varela Round;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.copy-link-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .link-display {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis if the link is too long */
+  }
+  
+  .copy-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: rgba(16, 79, 201, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .copy-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/Copy-Icon.svg');
+  }
+  

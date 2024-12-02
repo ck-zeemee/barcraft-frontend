@@ -1,0 +1,26 @@
+.cocktail-category-pill-container {
+    min-width: 74px;
+    width: fit-content;
+    height: 24px;
+    border-radius: 4px;
+    padding: 0 8px;
+    border: 1px solid #FFFFFF99;
+}
+
+.cocktail-category-pill-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    font-family: Varela Round;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    text-transform: uppercase;
+}

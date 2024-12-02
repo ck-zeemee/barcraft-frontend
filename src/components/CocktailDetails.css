@@ -1,0 +1,5 @@
+.cocktail-details {
+    display: grid;
+    justify-content: center;
+    margin-top: 24px;
+}

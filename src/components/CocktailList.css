@@ -1,0 +1,186 @@
+
+  .cocktail-list-container {
+    width: 966px;
+    margin: 0 auto;
+    padding: 0px 20px 40px 20px;
+    color: #fff;
+  }
+
+  .results-header-container {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .previous-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background-image: url('/public/Prev-Icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  .next-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background-image: url('/public/Next-Icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  .spinner-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    flex-direction: column;
+
+    color: #fff;
+
+    font-family: Varela Round;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .spinner-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    background-image: url('/public/spinner.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  
+  .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .query-description {
+    font-size: 36px;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid white;
+  }
+  
+  .search-button:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .cocktail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 16px;
+
+  }
+  
+  .cocktail-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .cocktail-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cocktail-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .cocktail-card:hover img {
+    opacity: 0.8;
+  }
+  
+  .cocktail-info {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .cocktail-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .cocktail-info span {
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 14px;
+    background-color: #444;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .pagination button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    height: 32px;
+    width: 32px;
+    background-color: #37373780;
+    color: white;
+    border: 1px solid #F1F1F199;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #555;
+  }
+  

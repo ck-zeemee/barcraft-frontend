@@ -1,0 +1,44 @@
+.cocktail-search-card-container {
+    cursor: pointer;
+    width: 441px;
+    height: 134px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF99;
+    padding: 14px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.cocktail-search-card-container:hover {
+    border: 1px solid #FFF;
+}
+
+.cocktail-search-card-container img {
+    width: 137px;
+    height: 137px;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+.cocktail-search-card-info {
+    width: 256px;
+    height: auto;
+    color: #FFFFFF;
+
+
+    font-family: Varela Round;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.cocktail-search-card-details-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 8px;
+}
